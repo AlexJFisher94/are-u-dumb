@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(201, 201, 201);
+}
+
+h1 {
+    text-align: center;
+    font-size: 78px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:
+}
+
+button {
+    font-size: 42px;
+    font-weight: 900;
+    width: 175px;
+    height: auto;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(233, 230, 181);
+    border: 4px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.yes {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    padding: 100px;
+}
+
+.no {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    padding: 100px;
+}
+
+.click1 {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+
+.click2 {
+    position: fixed;
+    bottom: 400px;
+    right: 400px;
+}
+
+.click3 {
+    position: fixed;
+    bottom: 20px;
+    right: 600px;
+}
+
+.click4 {
+    position: fixed;
+    bottom: 500px;
+    right: 20px;
+}
+
+.remove {
+    display: none;
+}
